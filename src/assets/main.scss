@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+  scroll-behavior: smooth;
+}
+
+// TYPOGRAPHY
+h3,
+button {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+// LIST
+ul {
+  list-style: none;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+// Additional Black Line
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background: #020305;
+  color: #ffffff;
+}
+
+// SWIPER
+.swiper {
+  width: 100%;
+  height: 100%;
+
+  .swiper-slide {
+    overflow: hidden;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    cursor: pointer;
+  }
+
+  .swiper-button-prev {
+    left: 30px;
+  }
+
+  .swiper-button-next {
+    right: 30px;
+  }
+}
+
+// ROUTER-LINK
+a {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// MEDIA
+@media (max-width: 425px) {
+  h3,
+  button {
+    font-size: 10px;
+  }
+
+  ul {
+    font-size: 10px;
+  }
+
+  .line {
+    height: 15px;
+  }
+
+  .swiper {
+    .swiper-button-prev {
+      left: 10px;
+    }
+
+    .swiper-button-next {
+      right: 10px;
+    }
+  }
+}
