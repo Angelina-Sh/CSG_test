@@ -64,7 +64,7 @@ export default {
         </div>
       </Swiper>
 
-      <AppCard class="desktop_view" imgUrl="public/png/card2.png" title="ЖАКЕТ" price="12 990" />
+      <AppCard class="desktop_view" imgUrl="/png/card2.png" title="ЖАКЕТ" price="12 990" />
     </div>
   </div>
 </template>
@@ -77,7 +77,7 @@ export default {
 
   .left {
     width: 40%;
-    background-image: url('public/png/promo-single_left.png');
+    background-image: url('/png/promo-single_left.png');
     background-size: cover;
   }
 

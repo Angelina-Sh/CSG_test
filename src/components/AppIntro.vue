@@ -29,7 +29,7 @@ export default {
       :modules="modules"
     >
       <SwiperSlide v-for="photo in photos" :key="photo">
-        <img :src="`public/png/${photo}`" alt="" />
+        <img :src="`/png/${photo}`" alt="" />
       </SwiperSlide>
       <div class="swiper-button-prev">
         <svg
