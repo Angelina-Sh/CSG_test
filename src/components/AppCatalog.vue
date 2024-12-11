@@ -13,9 +13,9 @@ export default {
   data() {
     return {
       photos: [
-        { imgUrl: '/png/card.png', title: 'ДЖИНСОВЫЙ КОСТЮМ', price: '12 990' },
-        { imgUrl: '/png/card.png', title: 'ДЖИНСОВЫЙ КОСТЮМ', price: '12 990' },
-        { imgUrl: '/png/card.png', title: 'ДЖИНСОВЫЙ КОСТЮМ', price: '12 990' },
+        { imgUrl: '/CSG_test/png/card.png', title: 'ДЖИНСОВЫЙ КОСТЮМ', price: '12 990' },
+        { imgUrl: '/CSG_test/png/card.png', title: 'ДЖИНСОВЫЙ КОСТЮМ', price: '12 990' },
+        { imgUrl: '/CSG_test/png/card.png', title: 'ДЖИНСОВЫЙ КОСТЮМ', price: '12 990' },
       ],
       modules: [Navigation],
     }
