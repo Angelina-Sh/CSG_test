@@ -1,6 +1,7 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
 import AppMenu from './components/AppMenu.vue'
+import AppFooter from './components/AppFooter.vue'
 
 window.addEventListener('DOMContentLoaded', () => {
   // Функционал меню
@@ -43,4 +44,5 @@ window.addEventListener('DOMContentLoaded', () => {
   <AppMenu />
   <AppHeader />
   <router-view></router-view>
+  <AppFooter />
 </template>
