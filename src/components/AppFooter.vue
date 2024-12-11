@@ -87,7 +87,7 @@
         </div>
       </div>
       <div class="company">
-        <img src="/CSG_test/png/company.png" alt="" />
+        <img src="/png/company.png" alt="" />
       </div>
       <div class="arrow-up">
         <span id="arrowUp">

@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card_image">
-      <img src="/CSG_test/png/catalogCard.png" alt="Catalog image" />
+      <img src="/png/catalogCard.png" alt="Catalog image" />
     </div>
     <div class="description">
       <h3>Колье</h3>
